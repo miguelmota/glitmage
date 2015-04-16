@@ -13,14 +13,15 @@
     var drawTimeout;
     var glitchTimeout;
 
-    image.src = el.src;
-
     if (el.complete) {
-      imageLoaded();
-    } else {
-      el.onload = function() {
-        image.onload = imageLoaded;
-      };
+      elLoaded();
+    }
+
+    el.onload = elLoaded;
+
+    function elLoaded() {
+      image.src = el.src;
+      image.onload = imageLoaded;
     }
 
     function imageLoaded() {
