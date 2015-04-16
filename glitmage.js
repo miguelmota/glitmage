@@ -1,4 +1,4 @@
-
+(function(root) {
   function Glitmage(el) {
     if (!(this instanceof Glitmage)) {
       return new Glitmage(el);
