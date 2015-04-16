@@ -76,6 +76,7 @@
       pause: pause,
       resume: resume,
       stop: stop,
+      start: resume,
       context: context,
       canvas: canvas
     };
