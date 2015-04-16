@@ -1,4 +1,4 @@
-glitmage
+# glitmage
 
 Glitchify an image with canvas.
 
