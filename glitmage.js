@@ -14,11 +14,16 @@
     var glitchTimeout;
 
     image.src = el.src;
-    image.onload = function() {
-      init();
-    };
 
-    function init() {
+    if (el.complete) {
+      imageLoaded();
+    } else {
+      el.onload = function() {
+        image.onload = imageLoaded;
+      };
+    }
+
+    function imageLoaded() {
       el.parentNode.replaceChild(canvas, el);
       canvas.width = width;
       canvas.height = height;
