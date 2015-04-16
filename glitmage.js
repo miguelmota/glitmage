@@ -1,4 +1,4 @@
-(function(root) {
+
   function Glitmage(el) {
     if (!(this instanceof Glitmage)) {
       return new Glitmage(el);
@@ -7,8 +7,8 @@
     var canvas = document.createElement('canvas');
     var context = canvas.getContext('2d');
     var image = new Image();
-    var width = el.offsetWidth;
-    var height = el.offsetHeight;
+    var width;
+    var height;
     var paused = false;
     var drawTimeout;
     var glitchTimeout;
@@ -20,6 +20,8 @@
     el.onload = elLoaded;
 
     function elLoaded() {
+      width = el.offsetWidth;
+      height = el.offsetHeight;
       image.src = el.src;
       image.onload = imageLoaded;
     }
