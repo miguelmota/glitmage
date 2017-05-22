@@ -4,7 +4,7 @@ Glitchify an image with canvas.
 
 # Demo
 
-**[http://lab.moogs.io/glitmage](http://lab.moogs.io/glitmage)**
+**[https://lab.miguelmota.com/glitmage](https://lab.miguelmota.com/glitmage)**
 
 # Install
 

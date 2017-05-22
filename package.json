@@ -1,6 +1,6 @@
 {
   "name": "glitmage",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Glitchify an image with canvas.",
   "main": "glitmage.js",
   "repository": {

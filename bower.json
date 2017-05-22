@@ -1,7 +1,7 @@
 {
   "name": "glitmage",
   "main": "glitmage.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/miguelmota/glitmage",
   "authors": [
     "Miguel Mota <miguelmota2@gmail.com>"
