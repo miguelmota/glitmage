@@ -2,7 +2,7 @@
 
 > Glitchify an image with canvas.
 
-<img src="https://raw.githubusercontent.com/miguelmota/glitmage/master/screenshot.gif" width="500" />
+<img src="https://raw.githubusercontent.com/miguelmota/glitmage/master/screenshot.gif" width="400" />
 
 # Demo
 
