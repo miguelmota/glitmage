@@ -1,6 +1,8 @@
 # glitmage
 
-Glitchify an image with canvas.
+> Glitchify an image with canvas.
+
+<img src="https://raw.githubusercontent.com/miguelmota/glitmage/master/screenshot.gif" width="500" />
 
 # Demo
 
